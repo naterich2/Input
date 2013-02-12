@@ -24,7 +24,7 @@ public class Input {
 	public int checkInt(){
 		int x = 0;
 		String y = "";
-		while(y instanceof String){
+		while(true){
 			try{
 				y = sam.next();
 				x = Integer.parseInt(y);
@@ -41,7 +41,7 @@ public class Input {
 	public double checkDouble(){
 		double x = 0.0;
 		String y = "";
-		while(y instanceof String){
+		while(true){
 			try{
 				y = sam.next();
 				x = Double.parseDouble(y);
@@ -58,7 +58,7 @@ public class Input {
 	public float checkFloat(){
 		float x = 0;
 		String y = "";
-		while(y instanceof String){
+		while(true){
 			try{
 				y = sam.next();
 				x = Float.parseFloat(y);
@@ -75,7 +75,7 @@ public class Input {
 	public long checkLong(){
 		long x = 0;
 		String y = "";
-		while(y instanceof String){
+		while(true){
 			try{
 				y = sam.next();
 				x = Long.parseLong(y);
